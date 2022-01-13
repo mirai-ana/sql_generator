@@ -11,9 +11,9 @@ Then, just enter the values to be entered as mentioned in the prompt.
 
 ```python
 Enter table names
-**friends**
+friends
 Enter columns of friends
-**name VARCHAR,birthdays DATE**
+name VARCHAR,birthdays DATE
 
 CREATE TABLE friends (
  name VARCHAR,
@@ -21,10 +21,9 @@ birthdays DATE );
 
 
 Enter table= friends columns= name,birthdays
-**friends1,'10-01'**
+friends1,'10-01'
 INSERT INTO friends ( name,birthdays ) VALUES ( friends1,'10-01' );
 ```
-The code in bold is what I entered, rest is the output of the code.
 
 ## Compatibility
 Anything supporting `print()`.
