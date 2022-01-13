@@ -3,8 +3,31 @@
 ## What might this be?
 This is something I wrote a long time ago so that I could get SQL statements faster and spend more time on the actual schema while working.
 
-## TL;DR
-The instructions are self-explanatory. Just download and run. I haven't tried it on different Python version but anything above 2.7 that uses ```print()``` should be fine.
+## How to use it?
+It requires you to have the database schema.
+First enter the names of all the tables.
+Then, enter the columns names and their type (maybe I'll add something more convenient).
+Then, just enter the values to be entered as mentioned in the prompt.
+
+```python
+Enter table names
+**friends**
+Enter columns of friends
+**name VARCHAR,birthdays DATE**
+
+CREATE TABLE friends (
+ name VARCHAR,
+birthdays DATE );
+
+
+Enter table= friends columns= name,birthdays
+**friends1,'10-01'**
+INSERT INTO friends ( name,birthdays ) VALUES ( friends1,'10-01' );
+```
+The code in bold is what I entered, rest is the output of the code.
+
+## Compatibility
+Anything supporting `print()`.
 
 ## Future Plans
-There should be other scripts that do a better job than this one. I just wrote this as a quick shortcut in the initial days so I do not intend to improve it at all.
+None really...
