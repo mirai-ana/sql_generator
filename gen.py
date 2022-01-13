@@ -1,6 +1,6 @@
 tables=[]
 col=[]
-tables=input("Enter table names").split(',')
+tables=input("Enter table names\n").split(',')
 for i in tables:
     print('Enter columns of',i)
     col.append(input().split(','))
