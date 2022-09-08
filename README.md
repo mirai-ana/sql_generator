@@ -26,7 +26,4 @@ INSERT INTO friends ( name,birthdays ) VALUES ( friends1,'10-01' );
 ```
 
 ## Compatibility
-Anything supporting `print()`.
-
-## Future Plans
-None really...
+Anything supporting `print()` :)
